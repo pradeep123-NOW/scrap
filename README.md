@@ -107,27 +107,4 @@ Scrapes the economic calendar and returns the data in JSON format:
 - `express`: Web framework for Node.js
 - `puppeteer`: Headless browser for web scraping
 
----
-
-## 🛑 Graceful Shutdown
-
-The server handles termination signals (`SIGTERM`) to properly close the Puppeteer browser instance and free up resources.
-
----
-
-## 🐛 Error Handling
-
-If an error occurs during scraping, the server returns a `500 Internal Server Error` with an error message.
-
----
-
-## 📄 License
-MIT License
-
----
-
-## 📞 Support
-If you encounter any issues, feel free to open an issue on GitHub or reach out via email.
-
----
 
